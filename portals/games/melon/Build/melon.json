@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "melon.data.unityweb",
+"asmCodeUrl": "melon.asm.code.unityweb",
+"asmMemoryUrl": "melon.asm.memory.unityweb",
+"asmFrameworkUrl": "melon.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#222C36"
+}
