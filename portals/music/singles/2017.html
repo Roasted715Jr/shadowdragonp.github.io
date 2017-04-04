@@ -18,6 +18,14 @@
     <!-- Squad theme CSS -->
     <link href="../../../css/style.css" rel="stylesheet">
 	<link href="../../../color/default.css" rel="stylesheet">
+	
+	<!-- Audio Player -->
+	<script src="../audiojs/audio.min.js"></script>
+	<script>
+		audiojs.events.ready(function() {
+			var as = audiojs.createAll();
+		});
+	</script>
     
     <!-- =======================================================
         Theme Name: Squadfree
@@ -129,8 +137,8 @@
 			<div style="margin-left:100px">
 				<div class="avatar" style="float:left;"><img src="../../../img/team/chickenanthem.png" width="200px" height="200px"/></div>
 				<div style="float:left; color:white; margin-left:50px;" align="left">
-					<h5>Chicken Anthem</h5>
-					<audio controls style="margin-top:-20px"><source src="audio/chickenanthem.mp3" type="audio/mpeg"></audio>
+					<h5 style="margin-bottom:5px; margin-top:10px;">Chicken Anthem</h5>
+					<audio src="audio/chickenanthem.mp3" preload="auto"/></audio>
 					<p>I met a person a while ago who invented a<br>language called <a href="http://happychickensclub.weebly.com/chickenese.html">Chickenese.</a> He taught me the<br>ways of a chicken, and I made him this song for<br>gratitude. It was made only two weeks after<br>Steel Force was made, so they may sound similar.</p>
 				</div>
 			</div>

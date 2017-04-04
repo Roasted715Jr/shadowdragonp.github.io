@@ -18,6 +18,14 @@
     <!-- Squad theme CSS -->
     <link href="../../../css/style.css" rel="stylesheet">
 	<link href="../../../color/default.css" rel="stylesheet">
+	
+	<!-- Audio Player -->
+	<script src="../audiojs/audio.min.js"></script>
+	<script>
+		audiojs.events.ready(function() {
+			var as = audiojs.createAll();
+		});
+	</script>
     
     <!-- =======================================================
         Theme Name: Squadfree
@@ -129,8 +137,8 @@
 			<div style="margin-left:100px">
 				<div class="avatar" style="float:left;"><img src="../../../img/team/2single.png" width="200px" height="200px"/></div>
 				<div style="float:left; color:white; margin-left:50px;" align="left">
-					<h5>K-Step</h5>
-					<audio controls style="margin-top:-20px"><source src="audio/k-step.mp3" type="audio/mpeg"></audio>
+					<h5 style="margin-bottom:5px; margin-top:10px;">K-Step</h5>
+					<audio src="audio/k-step.mp3" preload="auto"/></audio>
 					<p>This was a short song was made using samples<br>from <a href="http://sampulator.com/">sampulator.com</a>. I suggest playing around<br>with the website!</p>
 				</div>
 			</div>
@@ -139,8 +147,8 @@
 			<div style="margin-left:100px">
 				<div class="avatar" style="float:left;"><img src="../../../img/team/oneloop.png" width="200px" height="200px"/></div>
 				<div style="float:left; color:white; margin-left:50px;" align="left">
-					<h5>tonematrix - ONELOOP [Flowey]</h5>
-					<audio controls style="margin-top:-20px"><source src="audio/oneloop.mp3" type="audio/mpeg"></audio>
+					<h5 style="margin-bottom:5px; margin-top:10px;">tonematrix - ONELOOP [Flowey]</h5>
+					<audio src="audio/oneloop.mp3" preload="auto"/></audio>
 					<p>2016 was mainly a year of experimentation,<br>and I found <a href="https://www.audiotool.com">audiotool.com</a> one day. I used<br>one of its instruments, tonematrix, and composed<br>a repeating melody by drawing "Flowey" in a<br>16x16 grid.</p>
 				</div>
 			</div>
@@ -149,8 +157,8 @@
 			<div style="margin-left:100px">
 				<div class="avatar" style="float:left;"><img src="../../../img/team/steelforce.png" width="200px" height="200px"/></div>
 				<div style="float:left; color:white; margin-left:50px;" align="left">
-					<h5>Steel Force</h5>
-					<audio controls style="margin-top:-20px"><source src="audio/steelforce.mp3" type="audio/mpeg"></audio>
+					<h5 style="margin-bottom:5px; margin-top:10px;">Steel Force</h5>
+					<audio src="audio/steelforce.mp3" preload="auto"/></audio>
 					<p>I think this was the best song I've ever made<br>since Zero Matrix, and this was published on<br>December 31, 2016. Different from my other<br>songs, Steel Force was the first song that was<br>not an instrumental.<p>
 				</div>
 			</div>

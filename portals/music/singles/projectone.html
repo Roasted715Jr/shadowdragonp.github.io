@@ -18,6 +18,14 @@
     <!-- Squad theme CSS -->
     <link href="../../../css/style.css" rel="stylesheet">
 	<link href="../../../color/default.css" rel="stylesheet">
+	
+	<!-- Audio Player -->
+	<script src="../audiojs/audio.min.js"></script>
+	<script>
+		audiojs.events.ready(function() {
+			var as = audiojs.createAll();
+		});
+	</script>
     
     <!-- =======================================================
         Theme Name: Squadfree
@@ -129,8 +137,8 @@
 				<div style="margin-left:100px">
 					<div class="avatar" style="float:left;"><img src="../../../img/team/projectone.png" width="360px" height="360px"/></div>
 					<div style="float:left; color:white; margin-left:50px;" align="left">
-						<h5>Project One</h5>
-						<audio controls style="margin-top:-20px"><source src="audio/projectone.mp3" type="audio/mpeg"></audio>
+						<h5 style="margin-bottom:5px; margin-top:10px;">Project One</h5>
+						<audio src="audio/projectone.mp3" preload="auto"/></audio>
 					</div>
 				</div>
         </div>		
