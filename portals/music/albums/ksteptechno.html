@@ -18,6 +18,14 @@
     <!-- Squad theme CSS -->
     <link href="../../../css/style.css" rel="stylesheet">
 	<link href="../../../color/default.css" rel="stylesheet">
+	
+	<!-- Audio Player -->
+	<script src="../audiojs/audio.min.js"></script>
+	<script>
+		audiojs.events.ready(function() {
+			var as = audiojs.createAll();
+		});
+	</script>
     
     <!-- =======================================================
         Theme Name: Squadfree
@@ -130,19 +138,19 @@
 					<div class="avatar" style="float:left;"><img src="../../../img/team/ksteptechno.png" width="360px" height="360px"/></div>
 					<div style="float:left; color:white; margin-left:50px;" align="left">
 						<h5>K-Step Techno: Evolution [Disc 1]</h5>
-						<p>Electrolysis</p><audio controls style="margin-top:-20px"><source src="audio/electrolysis.mp3" type="audio/mpeg"></audio>
-						<p>Zero Matrix</p><audio controls style="margin-top:-20px"><source src="audio/zeromatrix.mp3" type="audio/mpeg"></audio>
-						<p>Gravity</p><audio controls style="margin-top:-20px"><source src="audio/gravity.mp3" type="audio/mpeg"></audio>
-						<p>Twilight Zone</p><audio controls style="margin-top:-20px"><source src="audio/twilightzone.mp3" type="audio/mpeg"></audio>
-						<p>Terminal Velocity</p><audio controls style="margin-top:-20px"><source src="audio/terminalvelocity.mp3" type="audio/mpeg"></audio>
-						<p>Vectors</p><audio controls style="margin-top:-20px"><source src="audio/vectors.mp3" type="audio/mpeg"></audio>
-						<p>Resonance</p><audio controls style="margin-top:-20px"><source src="audio/resonance.mp3" type="audio/mpeg"></audio>
-						<p>Fifth Dimension</p><audio controls style="margin-top:-20px"><source src="audio/fifthdimension.mp3" type="audio/mpeg"></audio>
-						<p>Quantum Force</p><audio controls style="margin-top:-20px"><source src="audio/quantumforce.mp3" type="audio/mpeg"></audio>
+						<p style="margin-bottom:0px; margin-top:10px;">Electrolysis</p><audio src="audio/electrolysis.mp3" preload="auto"/></audio>
+						<p style="margin-bottom:0px; margin-top:10px;">Zero Matrix</p><audio src="audio/zeromatrix.mp3" preload="auto"/></audio>
+						<p style="margin-bottom:0px; margin-top:10px;">Gravity</p><audio src="audio/gravity.mp3" preload="auto"/></audio>
+						<p style="margin-bottom:0px; margin-top:10px;">Twilight Zone</p><audio src="audio/twilightzone.mp3" preload="auto"/></audio>
+						<p style="margin-bottom:0px; margin-top:10px;">Terminal Velocity</p><audio src="audio/terminalvelocity.mp3" preload="auto"/></audio>
+						<p style="margin-bottom:0px; margin-top:10px;">Vectors</p><audio src="audio/vectors.mp3" preload="auto"/></audio>
+						<p style="margin-bottom:0px; margin-top:10px;">Resonance</p><audio src="audio/resonance.mp3" preload="auto"/></audio>
+						<p style="margin-bottom:0px; margin-top:10px;">Fifth Dimension</p><audio src="audio/fifthdimension.mp3" preload="auto"/></audio>
+						<p style="margin-bottom:0px; margin-top:10px;">Quantum Force</p><audio src="audio/quantumforce.mp3" preload="auto"/></audio>
 						<br><br><br>
 						<h5>Special Tracks</h5>
-						<p>Zero Matrix x Terminal Velocity [MASHUP]</p><audio controls style="margin-top:-20px"><source src="audio/zmxtv.mp3" type="audio/mpeg"></audio>
-						<p>Twilight Zone x Electrolysis</p><audio controls style="margin-top:-20px"><source src="audio/tzxe.mp3" type="audio/mpeg"></audio>
+						<p style="margin-bottom:0px; margin-top:10px;">Zero Matrix x Terminal Velocity [MASHUP]</p><audio src="audio/zmxtv.mp3" preload="auto"/></audio>
+						<p style="margin-bottom:0px; margin-top:10px;">Twilight Zone x Electrolysis [MASHUP]</p><audio src="audio/tzxe.mp3" preload="auto"/></audio>
 					</div>
 				</div>
         </div>		
@@ -151,7 +159,7 @@
 	<!-- /Section: news -->
 	
 	<!-- Section: about -->
-    <section id="about" class="home-section text-center">
+    <section id="about" class="home-section text-center" style="background:#DDDDDD">
 		<div class="heading-about">
 			<div class="container">
 			<div class="row">
@@ -164,15 +172,15 @@
 				<div class="avatar" style="float:left;"><img src="../../../img/team/ksteptechno2.png" width="360px" height="360px"/></div>
 				<div style="float:left; color:black; margin-left:50px;" align="left">
 					<h5>K-Step Techno: Evolution [Disc 2]</h5>
-					<p>Electrolysis (karaoke ver)</p><audio controls style="margin-top:-20px"><source src="audio/electrolysis2.mp3" type="audio/mpeg"></audio>
-					<p>Zero Matrix (karaoke ver)</p><audio controls style="margin-top:-20px"><source src="audio/zeromatrix2.mp3" type="audio/mpeg"></audio>
-					<p>Gravity (karaoke ver)</p><audio controls style="margin-top:-20px"><source src="audio/gravity2.mp3" type="audio/mpeg"></audio>
-					<p>Twilight Zone (karaoke ver)</p><audio controls style="margin-top:-20px"><source src="audio/twilightzone2.mp3" type="audio/mpeg"></audio>
-					<p>Terminal Velocity (karaoke ver)</p><audio controls style="margin-top:-20px"><source src="audio/terminalvelocity2.mp3" type="audio/mpeg"></audio>
-					<p>Vectors (karaoke ver)</p><audio controls style="margin-top:-20px"><source src="audio/vectors2.mp3" type="audio/mpeg"></audio>
-					<p>Resonance (karaoke ver)</p><audio controls style="margin-top:-20px"><source src="audio/resonance2.mp3" type="audio/mpeg"></audio>
-					<p>Fifth Dimension (karaoke ver)</p><audio controls style="margin-top:-20px"><source src="audio/fifthdimension2.mp3" type="audio/mpeg"></audio>
-					<p>Quantum Force (karaoke ver)</p><audio controls style="margin-top:-20px"><source src="audio/quantumforce2.mp3" type="audio/mpeg"></audio>
+					<p style="margin-bottom:0px; margin-top:10px;">Electrolysis (karaoke ver)</p><audio src="audio/electrolysis2.mp3" preload="auto"/></audio>
+					<p style="margin-bottom:0px; margin-top:10px;">Zero Matrix (karaoke ver)</p><audio src="audio/zeromatrix2.mp3" preload="auto"/></audio>
+					<p style="margin-bottom:0px; margin-top:10px;">Gravity (karaoke ver)</p><audio src="audio/gravity2.mp3" preload="auto"/></audio>
+					<p style="margin-bottom:0px; margin-top:10px;">Twilight Zone (karaoke ver)</p><audio src="audio/twilightzone2.mp3" preload="auto"/></audio>
+					<p style="margin-bottom:0px; margin-top:10px;">Terminal Velocity (karaoke ver)</p><audio src="audio/terminalvelocity2.mp3" preload="auto"/></audio>
+					<p style="margin-bottom:0px; margin-top:10px;">Vectors (karaoke ver)</p><audio src="audio/vectors2.mp3" preload="auto"/></audio>
+					<p style="margin-bottom:0px; margin-top:10px;">Resonance (karaoke ver)</p><audio src="audio/resonance2.mp3" preload="auto"/></audio>
+					<p style="margin-bottom:0px; margin-top:10px;">Fifth Dimension (karaoke ver)</p><audio src="audio/fifthdimension2.mp3" preload="auto"/></audio>
+					<p style="margin-bottom:0px; margin-top:10px;">Quantum Force (karaoke ver)</p><audio src="audio/quantumforce2.mp3" preload="auto"/></audio>
 				</div>
 			</div>
         </div>			
